@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import your pages here
+
 import 'landing_page.dart';
 import 'know_more_page.dart';
 import 'capital_page.dart';
@@ -8,6 +8,11 @@ import 'liberation_war_page.dart';
 import 'august_2024_page.dart';
 import 'tourist_places_page.dart';
 import 'historical_places_page.dart';
+import 'coxsbazar_page.dart';
+import 'sundarbans_page.dart';
+import 'srimangal_page.dart';
+import 'rangamati_page.dart';
+import 'dhaka_tour_page.dart';
 
 void main() {
   runApp(const BangladeshApp());
@@ -54,6 +59,11 @@ class BangladeshApp extends StatelessWidget {
         '/touristPlaces': (context) => const TouristPlacesPage(),
         '/historicalPlaces': (context) => const HistoricalPlacesPage(),
         '/august2024': (context) => const August2024Page(),
+        '/coxsbazar': (context) => const CoxsBazarPage(),
+        '/sundarbans': (context) => const SundarbansPage(),
+        '/srimangal': (context) => const SrimangalPage(),
+        '/rangamati': (context) => const RangamatiPage(),
+        '/dhakaTour': (context) => const DhakaTourPage(),
       },
     );
   }
