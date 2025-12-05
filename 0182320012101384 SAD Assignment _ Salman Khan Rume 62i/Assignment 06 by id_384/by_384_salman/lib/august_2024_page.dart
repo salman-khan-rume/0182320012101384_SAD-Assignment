@@ -27,7 +27,7 @@ class August2024Page extends StatelessWidget {
             // Centered image segment
             Center(
               child: SizedBox(
-                width: MediaQuery.of(context).size.width * 0.8,
+                width: MediaQuery.of(context).size.width * 0.5,
                 child: Image.asset(
                   'assets/images/bd_july.jpg',
                   fit: BoxFit.cover,

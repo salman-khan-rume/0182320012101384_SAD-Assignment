@@ -22,12 +22,14 @@ class CapitalPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 12),
-            SizedBox(
-              height: 500,
-              width: 1100,
-              child: Image(
-                image: const AssetImage('assets/images/bd_dhaka.jpg'),
-                fit: BoxFit.cover,
+            Center(
+              child: SizedBox(
+                height: 500,
+                width: 1100,
+                child: Image.asset(
+                  'assets/images/bd_dhaka.jpg',
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
             const SizedBox(height: 12),

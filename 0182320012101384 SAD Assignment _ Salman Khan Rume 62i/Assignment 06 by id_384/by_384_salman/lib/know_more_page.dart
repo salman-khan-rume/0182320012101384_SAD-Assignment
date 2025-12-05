@@ -71,7 +71,7 @@ class KnowMorePage extends StatelessWidget {
               title: 'Capital',
               routeName: '/capital',
               summary:
-                  'Dhaka is the capital city and the main political, economic, and cultural center of Bangladesh.',
+                  'Dhaka is the capital city and the main political, economic and cultural center of Bangladesh.',
             ),
             _buildInfoRow(
               context,
@@ -93,7 +93,7 @@ class KnowMorePage extends StatelessWidget {
               title: 'Tourist places',
               routeName: '/touristPlaces',
               summary:
-                  'Bangladesh has many beautiful tourist spots, including sea beaches, mangrove forests, and hill tracts.',
+                  'Bangladesh has many beautiful tourist spots, including sea beaches, mangrove forests and hill tracts.',
             ),
             _buildInfoRow(
               context,

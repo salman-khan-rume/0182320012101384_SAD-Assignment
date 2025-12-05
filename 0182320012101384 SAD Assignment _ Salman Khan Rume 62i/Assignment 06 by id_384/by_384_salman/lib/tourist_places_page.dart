@@ -65,7 +65,7 @@ class TouristPlacesPage extends StatelessWidget {
               child: SizedBox(
                 width: MediaQuery.of(context).size.width * 0.9,
                 child: Image.asset(
-                  'assets/images/tourist_places.png',
+                  'assets/images/bd_travel.jpg',
                   fit: BoxFit.cover,
                 ),
               ),
@@ -76,7 +76,7 @@ class TouristPlacesPage extends StatelessWidget {
             ),
             const SizedBox(height: 8),
             const Text(
-              'Some of the most visited destinations are Cox’s Bazar, the Sundarbans, Srimangal, Rangamati, and Dhaka.',
+              'Some of the most visited destinations are Cox’s Bazar, the Sundarbans, Srimangal, Rangamati and Dhaka.',
             ),
             const SizedBox(height: 16),
 
@@ -101,7 +101,7 @@ class TouristPlacesPage extends StatelessWidget {
               title: 'Srimangal',
               routeName: '/srimangal',
               brief:
-                  'Tea‑capital of Bangladesh, surrounded by tea gardens, forests, and quiet villages.',
+                  'Tea‑capital of Bangladesh, surrounded by tea gardens, forests and quiet villages.',
               filledButton: true,
             ),
             _buildPlaceRow(
@@ -117,7 +117,7 @@ class TouristPlacesPage extends StatelessWidget {
               title: 'Dhaka',
               routeName: '/dhakaTour',
               brief:
-                  'The capital city, full of historic sites, riverside views, and vibrant urban life.',
+                  'The capital city, full of historic sites, riverside views and vibrant urban life.',
               filledButton: true,
             ),
           ],
