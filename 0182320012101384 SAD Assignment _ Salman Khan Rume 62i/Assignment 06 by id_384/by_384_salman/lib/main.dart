@@ -5,6 +5,7 @@ import 'know_more_page.dart';
 import 'capital_page.dart';
 import 'population_page.dart';
 import 'liberation_war_page.dart';
+import 'august_2024_page.dart';
 import 'tourist_places_page.dart';
 import 'historical_places_page.dart';
 
@@ -52,6 +53,7 @@ class BangladeshApp extends StatelessWidget {
         '/liberationWar': (context) => const LiberationWarPage(),
         '/touristPlaces': (context) => const TouristPlacesPage(),
         '/historicalPlaces': (context) => const HistoricalPlacesPage(),
+        '/august2024': (context) => const August2024Page(),
       },
     );
   }

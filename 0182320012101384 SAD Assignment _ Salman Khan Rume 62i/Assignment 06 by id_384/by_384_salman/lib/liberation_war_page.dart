@@ -27,22 +27,24 @@ class LiberationWarPage extends StatelessWidget {
               height: 200,
               width: double.infinity,
               child: Image(
-                image: const AssetImage('assets/images/liberation_war.png'),
+                image: const AssetImage('assets/images/bd_win.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
             const SizedBox(height: 12),
             Text(
-              'The Bangladesh Liberation War was fought in 1971 and resulted in the independence of Bangladesh.',
+              'The Bangladesh Liberation War was fought in 1971 and resulted in the independence of Bangladesh from Pakistan. '
+              'The conflict began after long‑standing political, economic and cultural discrimination against the people of East '
+              'Pakistan. When the results of the 1970 election were ignored and demands for autonomy were denied, a brutal military '
+              'crackdown was launched on 25 March 1971, targeting civilians, students, and intellectuals. In response, the people of'
+              'Bangladesh organized armed resistance and formed the Mukti Bahini. After about nine months of fierce fighting and'
+              'immense sacrifice, the Pakistani forces surrendered on 16 December 1971, and Bangladesh emerged as a free nation.',
               style: TextStyle(color: red),
             ),
-            const SizedBox(height: 8),
-            const Text(
-              'The war lasted around nine months and involved immense sacrifice by the people of Bangladesh.',
-            ),
-            const SizedBox(height: 8),
-            const Text(
+            const SizedBox(height: 20),
+            Text(
               'The struggle created a new nation based on the spirit of freedom, language, and culture.',
+              style: TextStyle(color: green),
             ),
           ],
         ),

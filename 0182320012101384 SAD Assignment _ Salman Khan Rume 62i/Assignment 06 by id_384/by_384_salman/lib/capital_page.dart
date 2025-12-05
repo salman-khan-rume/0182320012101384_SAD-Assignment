@@ -23,10 +23,10 @@ class CapitalPage extends StatelessWidget {
             ),
             const SizedBox(height: 12),
             SizedBox(
-              height: 200,
-              width: double.infinity,
+              height: 500,
+              width: 1100,
               child: Image(
-                image: const AssetImage('assets/images/dhaka.png'),
+                image: const AssetImage('assets/images/bd_dhaka.jpg'),
                 fit: BoxFit.cover,
               ),
             ),
