@@ -27,7 +27,7 @@ class BangladeshApp extends StatelessWidget {
       title: 'Bangladesh App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        primaryColor: const Color(0xFF006A4E), // BD green
+        primaryColor: const Color(0xFF006A4E),
         scaffoldBackgroundColor: Colors.white,
         appBarTheme: const AppBarTheme(
           backgroundColor: Color(0xFF006A4E),
@@ -37,7 +37,7 @@ class BangladeshApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color(0xFF006A4E),
           primary: const Color(0xFF006A4E),
-          secondary: const Color(0xFFDA291C), // BD red
+          secondary: const Color(0xFFDA291C),
         ),
         elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(

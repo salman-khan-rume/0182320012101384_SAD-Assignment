@@ -22,12 +22,11 @@ class PopulationPage extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 12),
-            // Centered population image
             Center(
               child: SizedBox(
                 width: MediaQuery.of(context).size.width * 0.5,
                 child: Image.asset(
-                  'assets/images/bd_people.jpg', // put your image here
+                  'assets/images/bd_people.jpg',
                   fit: BoxFit.cover,
                 ),
               ),

@@ -86,7 +86,7 @@ class TouristPlacesPage extends StatelessWidget {
               routeName: '/coxsbazar',
               brief:
                   'A famous beach town known for having one of the longest natural sea beaches in the world.',
-              filledButton: true, // ElevatedButton
+              filledButton: true,
             ),
             _buildPlaceRow(
               context,
@@ -94,7 +94,7 @@ class TouristPlacesPage extends StatelessWidget {
               routeName: '/sundarbans',
               brief:
                   'The largest mangrove forest on earth and a UNESCO World Heritage Site, home to the Royal Bengal Tiger.',
-              filledButton: false, // OutlinedButton
+              filledButton: false,
             ),
             _buildPlaceRow(
               context,

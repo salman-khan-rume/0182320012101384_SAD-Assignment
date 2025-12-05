@@ -23,8 +23,6 @@ class August2024Page extends StatelessWidget {
               ),
             ),
             const SizedBox(height: 12),
-
-            // Centered image segment
             Center(
               child: SizedBox(
                 width: MediaQuery.of(context).size.width * 0.5,

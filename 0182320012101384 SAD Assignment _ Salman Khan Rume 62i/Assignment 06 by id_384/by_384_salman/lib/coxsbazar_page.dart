@@ -12,7 +12,6 @@ class CoxsBazarPage extends StatelessWidget {
       body: SingleChildScrollView(
         padding: const EdgeInsets.all(16),
         child: Text(
-          // write your own ~500‑word paragraph here about Cox’s Bazar
           'Cox’s Bazar is a famous coastal town in southeastern Bangladesh, widely known '
           'for its very long natural sand beach along the Bay of Bengal. '
           'You can describe location, beach length, sea views, sunset, hotels, nearby spots like Himchari, Inani, etc., '

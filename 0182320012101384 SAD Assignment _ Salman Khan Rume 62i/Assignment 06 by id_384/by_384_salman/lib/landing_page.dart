@@ -53,7 +53,6 @@ class LandingPage extends StatelessWidget {
             Center(
               child: Column(
                 children: [
-                  // BD map image - add your image to assets/images/bd_map.jpg
                   SizedBox(
                     height: 400,
                     child: Image(

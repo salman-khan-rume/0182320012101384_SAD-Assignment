@@ -39,7 +39,6 @@ class KnowMorePage extends StatelessWidget {
         padding: const EdgeInsets.all(16),
         child: Column(
           children: [
-            // Flag on top, centered, real ratio 10:6, not too big
             Center(
               child: SizedBox(
                 width: MediaQuery.of(context).size.width * 0.5,
@@ -48,8 +47,7 @@ class KnowMorePage extends StatelessWidget {
                     border: Border.all(color: green, width: 2),
                   ),
                   child: AspectRatio(
-                    aspectRatio:
-                        10 / 6, // Bangladesh flag ratio [web:77][web:78]
+                    aspectRatio: 10 / 6,
                     child: Image.asset(
                       'assets/images/bd_flag.jpg',
                       fit: BoxFit.contain,
@@ -80,7 +78,6 @@ class KnowMorePage extends StatelessWidget {
               summary:
                   'The Liberation War of 1971 led to the independence of Bangladesh after a nine‑month struggle.',
             ),
-            // New button about August 2024
             _buildInfoRow(
               context,
               title: 'August 2024',
